@@ -396,6 +396,17 @@ main { padding-top: var(--header-h); }
 .footer-bottom .socials a { width: 38px; height: 38px; border-radius: 10px; border: 1px solid rgba(255,255,255,.14); display:grid; place-items:center; color: rgba(255,255,255,.7); transition: all .2s ease; }
 .footer-bottom .socials a:hover { background: var(--c-brand); border-color: var(--c-brand); color:#fff; }
 .footer-bottom .socials svg { width: 17px; height: 17px; }
+.footer-bottom .legal-links { display:flex; gap: 18px; }
+.footer-bottom .legal-links a { color: rgba(255,255,255,.6); font-size: 13.5px; transition: color .2s ease; }
+.footer-bottom .legal-links a:hover { color:#fff; }
+.legal-prose { max-width: 820px; margin: 0 auto; }
+.legal-prose h2 { font-family: var(--font-display); font-size: 22px; margin: 34px 0 12px; color: var(--c-text); }
+.legal-prose p { color: var(--c-text-light); font-size: 16px; line-height: 1.8; margin-bottom: 14px; }
+.legal-prose ul { color: var(--c-text-light); font-size: 16px; line-height: 1.8; margin: 0 0 14px 20px; }
+.legal-prose li { margin-bottom: 6px; }
+.legal-prose strong { color: var(--c-text); font-weight: 600; }
+.legal-prose a { color: var(--c-brand); }
+.legal-prose .updated { color: var(--c-text-light); font-size: 14px; margin-top: 4px; }
 
 /* --------------------------- Reveal ------------------------------- */
 .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
