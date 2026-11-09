@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support &mdash; Inspiregg</title>
+  <meta name="description" content="Support for Inspiregg: frequently asked questions, troubleshooting, restoring your one-time purchase, billing and refunds, and how to contact us." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <style>
+    .help-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
+    .help-card h3 { margin-bottom: 10px; }
+    .help-card p { margin-bottom: 20px; }
+    .help-card .btn { width: 100%; justify-content: center; }
+    .faq-list { max-width: 820px; margin: 0 auto; display: grid; gap: 14px; }
+    .faq-item { background: #fff; border: 1px solid var(--c-line); border-radius: 16px; padding: 20px 24px; box-shadow: var(--shadow-md); }
+    .faq-item summary { display: flex; justify-content: space-between; align-items: center; gap: 18px; list-style: none; cursor: pointer; font-family: var(--font-display); font-weight: 600; font-size: 17px; color: var(--c-text); }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: "+"; flex: none; font-family: var(--font); font-size: 22px; font-weight: 400; color: var(--c-brand); line-height: 1; }
+    .faq-item[open] summary::after { content: "\2212"; }
+    .faq-item p { color: var(--c-text-light); font-size: 15.5px; line-height: 1.8; margin: 14px 0 0; }
+    .faq-item a { color: var(--c-brand); }
+    .check-list { max-width: 820px; margin: 0 auto; display: grid; gap: 14px; }
+    .check-list li { display: flex; gap: 14px; align-items: flex-start; color: var(--c-text-light); font-size: 16px; line-height: 1.8; }
+    .check-list .check { flex: none; width: 22px; height: 22px; margin-top: 4px; border-radius: 50%; background: rgba(47,91,255,.10); color: var(--c-brand); display: grid; place-items: center; font-size: 13px; font-weight: 700; }
+    .check-list a { color: var(--c-brand); }
+    .support-note { max-width: 820px; margin: 26px auto 0; padding: 20px 24px; border-left: 3px solid var(--c-brand); background: var(--c-bg-soft); border-radius: 0 12px 12px 0; color: var(--c-text-light); font-size: 15px; line-height: 1.8; }
+    .support-note strong { color: var(--c-text); }
+    @media (max-width: 860px) { .help-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="../index.html">
+        <span class="logo">H</span>
+        <span>Huanjing<small>Technology</small></span>
+      </a>
+      <div class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+        <a href="../products.html">Products</a>
+        <a href="../privacy.html">Privacy</a>
+        <a href="../terms.html">Terms</a>
+      </div>
+      <div class="nav-cta">
+        <a class="btn btn--primary" href="../products.html">Explore Apps</a>
+        <button class="nav-toggle" aria-label="Toggle menu"><span></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page hero -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="../index.html">Home</a> <span>/</span> <span>Inspiregg</span> <span>/</span> <span>Support</span></div>
+        <h1>Inspiregg Support</h1>
+        <p>Answers, troubleshooting and contact details for the focus timer that turns completed sessions into companions.</p>
+      </div>
+    </section>
+
+    <!-- Quick help -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Start here</span>
+          <h2>How can we help?</h2>
+          <p>Most questions are answered below. If you still need a hand, email us directly.</p>
+        </div>
+        <div class="help-grid">
+          <div class="card help-card reveal">
+            <h3>Contact support</h3>
+            <p>Write to us with details of the problem. We read every message and reply as soon as we can.</p>
+            <a class="btn btn--ghost" href="mailto:inspiregg@huanjingtech.top">Email us</a>
+          </div>
+          <div class="card help-card reveal">
+            <h3>Restore a purchase</h3>
+            <p>Already unlocked Lifetime Premium? Use Restore Purchases in Settings on the new device.</p>
+            <a class="btn btn--ghost" href="#faq-purchases">Read how</a>
+          </div>
+          <div class="card help-card reveal">
+            <h3>Privacy &amp; terms</h3>
+            <p>Read exactly what the App stores, how optional iCloud Sync works and the purchase terms.</p>
+            <a class="btn btn--ghost" href="privacy.html">View documents</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--soft" id="faq">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2>Frequently asked questions</h2>
+          <p>Tap a question to expand the answer.</p>
+        </div>
+
+        <div class="faq-list" id="faq-basics">
+          <details class="faq-item" open>
+            <summary>What is Inspiregg and do I need an account?</summary>
+            <p>Inspiregg is a focus timer. Choose 5, 10, 15, 20, 30 or 60 minutes, stay with the session until the countdown ends, and the egg hatches into a companion you keep. There is no account, no sign-in and no email address required. The interface is currently in English and the App requires iOS 17.0 or later.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Why didn't my egg hatch?</summary>
+            <p>An egg only hatches when the countdown reaches zero. Ending a session early, or switching to another app during a Deep Focus session, ends the attempt. Locking the screen does not end a session, so you can put the device down and let the timer run. In Normal mode, switching apps does not interrupt the timer.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What are the three focus modes?</summary>
+            <p><strong>Normal</strong> keeps the timer running even if you switch apps. <strong>Deep</strong> ends the session when you switch apps, but not when you lock the screen. <strong>Whitelist</strong> uses the iOS Screen Time and Family Controls picker to shield the apps you do not allow for that session.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Why can't some apps be shielded in Whitelist mode?</summary>
+            <p>Shielding is performed by iOS through Screen Time, and iOS does not allow every system app to be shielded. Make sure you grant the requested Screen Time permission when asked. This is an operating-system limitation, not an App setting.</p>
+          </details>
+          <details class="faq-item">
+            <summary>I don't see the Lock Screen countdown or the hatch notification.</summary>
+            <p>Allow notifications when the App first asks, and keep Live Activities enabled in iOS Settings. The countdown is rendered by iOS as a Live Activity while the App is suspended, and a local notification with sound fires when the egg hatches. If you previously denied notification permission, re-enable it in iOS Settings &gt; Notifications &gt; Inspiregg.</p>
+          </details>
+          <details class="faq-item" id="faq-bond">
+            <summary>Why did my companion's bond go down?</summary>
+            <p>Bond gently decreases when a companion has not joined a focus session for a while, down to a minimum value; it never reaches zero. Completing a session together raises it again. Open the companion's card to see how long it has been idle and the current rule. The values refresh when you return to the App.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I sync my collection across devices?</summary>
+            <p>Turn on iCloud Sync in Settings while signed in to iCloud on both devices. Your collection is stored in your own private iCloud database and is only readable by you. You can switch the setting off at any time. Without iCloud Sync, data stays on that device only.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Does the App work offline?</summary>
+            <p>Yes. Focus sessions, hatching, the collection and the bond calculations all happen on your device and need no connection. You only need a connection for the one-time purchase, restoring a purchase and optional iCloud Sync.</p>
+          </details>
+        </div>
+
+        <div class="faq-list" id="faq-purchases" style="margin-top:16px;">
+          <details class="faq-item">
+            <summary>Is there a subscription?</summary>
+            <p>No. Inspiregg has a single non-consumable, one-time purchase called <strong>Unlock Lifetime Premium</strong>. The first three hatches are free; afterwards completed sessions are saved as eggs, and the purchase unlocks unlimited hatching, including eggs saved earlier. There are no recurring charges.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I restore my purchase after reinstalling or changing devices?</summary>
+            <p>Open Settings and tap <strong>Restore Purchases</strong>, using the same Apple ID you purchased with. The App verifies the existing transaction with the App Store and unlocks the entitlement again. You are not charged a second time for a non-consumable purchase. If the App was freshly installed, it also checks your entitlement automatically on launch and when it returns to the foreground.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I request a refund?</summary>
+            <p>All payments, billing questions and refunds are handled by Apple. We never receive your payment details and cannot approve or reverse a charge. Use <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a> or contact Apple Support. The <a href="terms.html">Inspiregg Terms of Use</a> contain the same rule.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I delete all my data?</summary>
+            <p>Settings includes a full data reset with a confirmation step. If iCloud Sync is on, the copy in your private iCloud database is removed as well. Deleting the App from the device also removes its local data. Your purchase entitlement is stored by the App Store and is not affected by a data reset.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What data do you collect from me?</summary>
+            <p>None on our servers. Inspiregg has no account system, no analytics or advertising SDKs, and no code that uploads your focus history to us. Focus data and preferences stay on your device, plus an optional copy in your own private iCloud database. See the <a href="privacy.html">Privacy Policy</a> for the full list.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Before contacting -->
+    <section class="section" id="troubleshooting">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Troubleshooting</span>
+          <h2>Before you email us</h2>
+          <p>A few quick checks solve most issues.</p>
+        </div>
+        <ul class="check-list">
+          <li><span class="check">1</span><span>Update to the latest version of Inspiregg from the App Store, then close and reopen the App.</span></li>
+          <li><span class="check">2</span><span>Check that notifications and Live Activities are allowed in iOS Settings.</span></li>
+          <li><span class="check">3</span><span>For purchase questions, confirm you are signed in with the same Apple ID used for the original purchase, then tap Restore Purchases.</span></li>
+          <li><span class="check">4</span><span>For sync questions, confirm you are signed in to iCloud and that iCloud Sync is enabled on both devices.</span></li>
+          <li><span class="check">5</span><span>For billing and refunds, contact Apple directly &mdash; we cannot access or change payment records.</span></li>
+        </ul>
+
+        <div class="support-note">
+          <strong>What to include in your message:</strong> your device model, iOS version, the Inspiregg version you are using, what you did, what you expected, what happened instead, and a screenshot if it helps. Because the App does not send data to us, we cannot look up your sessions or collection remotely &mdash; these details let us reproduce the issue.
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section--dark">
+      <div class="container cta-band reveal">
+        <span class="eyebrow">Still need help?</span>
+        <h2>We're happy to help</h2>
+        <p>Send us a note and include the details above so we can look into it quickly.</p>
+        <div class="hero-actions" style="justify-content:center;">
+          <a class="btn btn--light" href="mailto:inspiregg@huanjingtech.top">Email inspiregg@huanjingtech.top</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="../index.html"><span class="logo">H</span><span>Huanjing<small>Technology</small></span></a>
+          <p class="about">Huanjing Technology builds software and APP development solutions that help people automate, decide, and get more done &mdash; simple, powerful, human-centered.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="../about.html">About Us</a>
+          <a href="../about.html#values">Our Values</a>
+        </div>
+        <div class="footer-col">
+          <h5>Products</h5>
+          <a href="../products.html#hatch-timer">Hatch Timer</a>
+          <a href="../products.html#breathe">Breathe</a>
+          <a href="../products.html#room-beauty">Room Studio</a>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <a href="mailto:inspiregg@huanjingtech.top">inspiregg@huanjingtech.top</a>
+          <span class="addr">Room 1213, 1st Floor, Zone E, Xianning Industrial Park, No. 8 Shuangqiao Road, Guanzhuang, Chaoyang District</span>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Beijing Huanjing Technology Co., Ltd. All rights reserved.</span>
+        <div class="legal-links">
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Use</a>
+          <a href="../privacy.html">General Privacy</a>
+          <a href="../terms.html">General Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
