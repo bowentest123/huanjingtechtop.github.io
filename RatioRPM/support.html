@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support &mdash; RatioRPM</title>
+  <meta name="description" content="Support for RatioRPM: frequently asked questions about wheel size, chainrings, cassettes, gear ratios, development, cadence to speed, haptics, and how to contact us." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <style>
+    .help-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
+    .help-card h3 { margin-bottom: 10px; }
+    .help-card p { margin-bottom: 20px; }
+    .help-card .btn { width: 100%; justify-content: center; }
+    .faq-list { max-width: 820px; margin: 0 auto; display: grid; gap: 14px; }
+    .faq-item { background: #fff; border: 1px solid var(--c-line); border-radius: 16px; padding: 20px 24px; box-shadow: var(--shadow-md); }
+    .faq-item summary { display: flex; justify-content: space-between; align-items: center; gap: 18px; list-style: none; cursor: pointer; font-family: var(--font-display); font-weight: 600; font-size: 17px; color: var(--c-text); }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: "+"; flex: none; font-family: var(--font); font-size: 22px; font-weight: 400; color: var(--c-brand); line-height: 1; }
+    .faq-item[open] summary::after { content: "\2212"; }
+    .faq-item p { color: var(--c-text-light); font-size: 15.5px; line-height: 1.8; margin: 14px 0 0; }
+    .faq-item a { color: var(--c-brand); }
+    .check-list { max-width: 820px; margin: 0 auto; display: grid; gap: 14px; }
+    .check-list li { display: flex; gap: 14px; align-items: flex-start; color: var(--c-text-light); font-size: 16px; line-height: 1.8; }
+    .check-list .check { flex: none; width: 22px; height: 22px; margin-top: 4px; border-radius: 50%; background: rgba(47,91,255,.10); color: var(--c-brand); display: grid; place-items: center; font-size: 13px; font-weight: 700; }
+    .check-list a { color: var(--c-brand); }
+    .support-note { max-width: 820px; margin: 26px auto 0; padding: 20px 24px; border-left: 3px solid var(--c-brand); background: var(--c-bg-soft); border-radius: 0 12px 12px 0; color: var(--c-text-light); font-size: 15px; line-height: 1.8; }
+    .support-note strong { color: var(--c-text); }
+    @media (max-width: 860px) { .help-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="../index.html">
+        <span class="logo">H</span>
+        <span>Huanjing<small>Technology</small></span>
+      </a>
+      <div class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+        <a href="../products.html">Products</a>
+        <a href="../privacy.html">Privacy</a>
+        <a href="../terms.html">Terms</a>
+      </div>
+      <div class="nav-cta">
+        <a class="btn btn--primary" href="../products.html">Explore Apps</a>
+        <button class="nav-toggle" aria-label="Toggle menu"><span></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page hero -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="../index.html">Home</a> <span>/</span> <span>RatioRPM</span> <span>/</span> <span>Support</span></div>
+        <h1>RatioRPM Support</h1>
+        <p>Answers about setups, gear ratios, cadence to speed, haptics, and how to get in touch.</p>
+      </div>
+    </section>
+
+    <!-- Quick help -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Start here</span>
+          <h2>How can we help?</h2>
+          <p>Most questions are answered below. If you still need a hand, email us directly.</p>
+        </div>
+        <div class="help-grid">
+          <div class="card help-card reveal">
+            <h3>Contact support</h3>
+            <p>Write to us with details of the problem. We read every message and reply as soon as we can.</p>
+            <a class="btn btn--ghost" href="mailto:webmaster@huanjingtech.top">Email us</a>
+          </div>
+          <div class="card help-card reveal">
+            <h3>Understand the numbers</h3>
+            <p>Learn how ratio, development, and cadence to speed are calculated and why they are estimates.</p>
+            <a class="btn btn--ghost" href="#faq-calculations">Read the FAQ</a>
+          </div>
+          <div class="card help-card reveal">
+            <h3>Privacy &amp; terms</h3>
+            <p>Read exactly what the App stores on your device and the terms that govern its use.</p>
+            <a class="btn btn--ghost" href="privacy.html">View documents</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--soft" id="faq">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2>Frequently asked questions</h2>
+          <p>Tap a question to expand the answer.</p>
+        </div>
+
+        <div class="faq-list" id="faq-basics">
+          <details class="faq-item" open>
+            <summary>What is RatioRPM and do I need an account?</summary>
+            <p>RatioRPM is a fast, focused gear calculator for road, gravel, and MTB cyclists. Pick your wheel size, front chainrings, and rear cassette, then enter your cadence to see the gear ratio and development (rollout) for every chainring-and-cog combination, plus the speed each gear produces at that cadence. There is no account, no sign-in, and no email address required.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I build my setup?</summary>
+            <p>Choose the wheel diameter closest to your bike's fitted wheel and tyre, select one or more front chainrings, and enter the cogs of your rear cassette. The full gear matrix rebuilds itself as you change any of these values, so you can compare a climbing gear with a sprinting gear at a glance.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What are gear ratio and development (rollout)?</summary>
+            <p><strong>Gear ratio</strong> is the number of teeth on the chainring divided by the number of teeth on the cog &mdash; for example, 50&times;17 gives about 2.94. <strong>Development</strong>, sometimes called rollout, is how far the bike travels for one full turn of the cranks: wheel circumference &times; gear ratio. It is the easiest way to compare gears across different wheel sizes.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What cadence range can I use?</summary>
+            <p>Slide the cadence control anywhere from 30 to 130 rpm. Speeds for every combination in the matrix update live as you move it, so you can see what a 53&times;11 spins at 90 rpm or what a climbing gear feels like at 60 rpm without doing any arithmetic.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What do the smart highlights show?</summary>
+            <p>Highlights point out your highest and lowest gears (the fastest and slowest combinations in your setup) and the closest matches &mdash; gears whose ratios or development values are nearly identical. Near-duplicates are useful to know about because switching to them rarely changes how the bike feels.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can I turn off the haptic feedback or chain-click sound?</summary>
+            <p>The light haptic and the subtle chain-click sound are produced by iOS system APIs and follow the relevant device settings. Check Sounds &amp; Haptics in iOS Settings and your device's sound switch. Haptics also depend on hardware support, so they may not be available on every device. The App never uses the microphone to produce or record the click.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Does the App work offline?</summary>
+            <p>Yes. Building your setup, the gear matrix, development, cadence to speed, and the highlights all happen on your device and need no connection. The App does not upload your setup or calculations to a server.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do you collect my setup or riding data?</summary>
+            <p>No. There is no account system, no analytics or advertising SDKs, and no server that receives your data. Your wheel size, chainrings, cassette, and cadence stay on your device, and the App does not access your location or ride history. See the <a href="privacy.html">Privacy Policy</a> for the full list.</p>
+          </details>
+        </div>
+
+        <div class="faq-list" id="faq-calculations" style="margin-top:16px;">
+          <details class="faq-item">
+            <summary>How is speed calculated from cadence?</summary>
+            <p>For each chainring-and-cog pair, the App divides chainring teeth by cog teeth to get the ratio, multiplies by wheel circumference to get development, then multiplies by cadence to get distance per minute. That value is converted into the speed units shown in the App. Changing cadence changes speeds, but never the ratios or development &mdash; those are fixed by your setup.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Why doesn't the speed match my bike computer?</summary>
+            <p>The App shows a theoretical speed for the nominal wheel diameter and the cadence you entered. Real speed is affected by the tyre's actual rolling circumference, tyre pressure and wear, rider weight, gradient, wind, drafting, drivetrain losses, and wheel slip. The numbers are meant for comparing gears with each other, not for measuring a ride.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Which wheel size should I pick?</summary>
+            <p>Choose the diameter that best matches your wheel with the tyre fitted, not just the rim designation. Two bikes both labelled 700c or 29" can have noticeably different rolling circumferences depending on tyre width and pressure. If you know the measured rolling circumference of your setup, use the closest available diameter.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Why do two gears show almost the same number?</summary>
+            <p>Overlapping gear ranges are normal, especially on 2&times; drivetrains: a large chainring with a large cog can produce nearly the same ratio as a small chainring with a small cog. The closest-match highlights help you spot these pairs so you can avoid shifting between gears that feel identical.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can I use the numbers to choose a cassette or chainring?</summary>
+            <p>That is what the App is for: build a candidate setup, compare the matrix before you buy, and see which gears you would gain or lose. Treat the result as a planning aid and confirm compatibility, chain wrap, and clearance with your drivetrain manufacturer or a qualified mechanic. The <a href="terms.html">Terms of Use</a> explain the limits of the calculations.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Before contacting -->
+    <section class="section" id="troubleshooting">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Troubleshooting</span>
+          <h2>Before you email us</h2>
+          <p>A few quick checks solve most issues.</p>
+        </div>
+        <ul class="check-list">
+          <li><span class="check">1</span><span>Update to the latest version of RatioRPM from the App Store, then close and reopen the App.</span></li>
+          <li><span class="check">2</span><span>Double-check the wheel diameter, chainring teeth, and cassette cogs you entered &mdash; results are only as accurate as your inputs.</span></li>
+          <li><span class="check">3</span><span>For sound or haptic questions, check Sounds &amp; Haptics in iOS Settings and your device's sound switch.</span></li>
+          <li><span class="check">4</span><span>Sanity-check a known combination (for example 53&times;11 at 90 rpm) to see whether the whole matrix or a single value looks wrong.</span></li>
+          <li><span class="check">5</span><span>Remember that speeds are theoretical estimates and will differ from a bike computer or GPS device.</span></li>
+        </ul>
+
+        <div class="support-note">
+          <strong>What to include in your message:</strong> your device model, iOS version, the RatioRPM version you are using, the exact wheel size, chainrings, cassette, and cadence you entered, what you expected, what the App showed instead, and a screenshot if it helps. Because the App does not send data to us, we cannot look up your setup remotely &mdash; these details let us reproduce the issue.
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section--dark">
+      <div class="container cta-band reveal">
+        <span class="eyebrow">Still need help?</span>
+        <h2>We're happy to help</h2>
+        <p>Send us a note and include the details above so we can look into it quickly.</p>
+        <div class="hero-actions" style="justify-content:center;">
+          <a class="btn btn--light" href="mailto:webmaster@huanjingtech.top">Email webmaster@huanjingtech.top</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="../index.html"><span class="logo">H</span><span>Huanjing<small>Technology</small></span></a>
+          <p class="about">Huanjing Technology builds software and APP development solutions that help people automate, decide, and get more done &mdash; simple, powerful, human-centered.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="../about.html">About Us</a>
+          <a href="../about.html#values">Our Values</a>
+        </div>
+        <div class="footer-col">
+          <h5>Products</h5>
+          <a href="../products.html#hatch-timer">Hatch Timer</a>
+          <a href="../products.html#breathe">Breathe</a>
+          <a href="../products.html#room-beauty">Room Studio</a>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <a href="mailto:webmaster@huanjingtech.top">webmaster@huanjingtech.top</a>
+          <span class="addr">Room 1213, 1st Floor, Zone E, Xianning Industrial Park, No. 8 Shuangqiao Road, Guanzhuang, Chaoyang District</span>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Beijing Huanjing Technology Co., Ltd. All rights reserved.</span>
+        <div class="legal-links">
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Use</a>
+          <a href="../privacy.html">General Privacy</a>
+          <a href="../terms.html">General Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
