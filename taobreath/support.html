@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support &mdash; Tao Breath</title>
+  <meta name="description" content="Support for Tao Breath: frequently asked questions about the Six Healing Sounds sessions, free and premium scenes, restoring a purchase, iCloud Sync, troubleshooting, and how to contact us." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <style>
+    .help-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
+    .help-card h3 { margin-bottom: 10px; }
+    .help-card p { margin-bottom: 20px; }
+    .help-card .btn { width: 100%; justify-content: center; }
+    .faq-list { max-width: 820px; margin: 0 auto; display: grid; gap: 14px; }
+    .faq-item { background: #fff; border: 1px solid var(--c-line); border-radius: 16px; padding: 20px 24px; box-shadow: var(--shadow-md); }
+    .faq-item summary { display: flex; justify-content: space-between; align-items: center; gap: 18px; list-style: none; cursor: pointer; font-family: var(--font-display); font-weight: 600; font-size: 17px; color: var(--c-text); }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: "+"; flex: none; font-family: var(--font); font-size: 22px; font-weight: 400; color: var(--c-brand); line-height: 1; }
+    .faq-item[open] summary::after { content: "\2212"; }
+    .faq-item p { color: var(--c-text-light); font-size: 15.5px; line-height: 1.8; margin: 14px 0 0; }
+    .faq-item a { color: var(--c-brand); }
+    .check-list { max-width: 820px; margin: 0 auto; display: grid; gap: 14px; }
+    .check-list li { display: flex; gap: 14px; align-items: flex-start; color: var(--c-text-light); font-size: 16px; line-height: 1.8; }
+    .check-list .check { flex: none; width: 22px; height: 22px; margin-top: 4px; border-radius: 50%; background: rgba(47,91,255,.10); color: var(--c-brand); display: grid; place-items: center; font-size: 13px; font-weight: 700; }
+    .check-list a { color: var(--c-brand); }
+    .support-note { max-width: 820px; margin: 26px auto 0; padding: 20px 24px; border-left: 3px solid var(--c-brand); background: var(--c-bg-soft); border-radius: 0 12px 12px 0; color: var(--c-text-light); font-size: 15px; line-height: 1.8; }
+    .support-note strong { color: var(--c-text); }
+    @media (max-width: 860px) { .help-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="../index.html">
+        <span class="logo">H</span>
+        <span>Huanjing<small>Technology</small></span>
+      </a>
+      <div class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+        <a href="../products.html">Products</a>
+        <a href="../privacy.html">Privacy</a>
+        <a href="../terms.html">Terms</a>
+      </div>
+      <div class="nav-cta">
+        <a class="btn btn--primary" href="../products.html">Explore Apps</a>
+        <button class="nav-toggle" aria-label="Toggle menu"><span></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page hero -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="../index.html">Home</a> <span>/</span> <span>Tao Breath</span> <span>/</span> <span>Support</span></div>
+        <h1>Tao Breath Support</h1>
+        <p>Answers, troubleshooting and contact details for the guided Six Healing Sounds breathing app.</p>
+      </div>
+    </section>
+
+    <!-- Quick help -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Start here</span>
+          <h2>How can we help?</h2>
+          <p>Most questions are answered below. If you still need a hand, email us directly.</p>
+        </div>
+        <div class="help-grid">
+          <div class="card help-card reveal">
+            <h3>Contact support</h3>
+            <p>Write to us with details of the problem. We read every message and reply as soon as we can.</p>
+            <a class="btn btn--ghost" href="mailto:taobreath@huanjingtech.top">Email us</a>
+          </div>
+          <div class="card help-card reveal">
+            <h3>Restore a purchase</h3>
+            <p>Already bought Lifetime Premium? Use Restore Purchases in Settings on your new device.</p>
+            <a class="btn btn--ghost" href="#faq-purchases">Read how</a>
+          </div>
+          <div class="card help-card reveal">
+            <h3>Privacy &amp; terms</h3>
+            <p>Read exactly what the App stores, how optional iCloud Sync works and the purchase terms.</p>
+            <a class="btn btn--ghost" href="privacy.html">View documents</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--soft" id="faq">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2>Frequently asked questions</h2>
+          <p>Tap a question to expand the answer.</p>
+        </div>
+
+        <div class="faq-list" id="faq-basics">
+          <details class="faq-item" open>
+            <summary>What is Tao Breath and do I need an account?</summary>
+            <p>Tao Breath is a guided breathing app based on the Six Healing Sounds (Liu Zi Jue), a traditional Taoist practice. It leads you through slow inhalations and six voiced exhalations across themed scenes for emotions, night, daily life and single-sound practice. There is no account, no sign-in and no email address required. The App works entirely offline, requires iOS 17.0 or later, is designed for iPhone in portrait, and offers English and Simplified Chinese interfaces.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What are the Six Healing Sounds?</summary>
+            <p>They are <strong>嘘 Xū</strong>, <strong>呵 Hē</strong>, <strong>呼 Hū</strong>, <strong>呬 Sī</strong>, <strong>吹 Chuī</strong> and <strong>嘻 Xī</strong> &mdash; six sounds voiced on the exhale, each with its own mouth shape. The Reference screen shows the character, an approximate pronunciation, the mouth shape and a short description, and lets you tap to hear a bundled audio sample. Scenes combine one or more of these sounds into a sequence.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How long is a session, and how do I end one early?</summary>
+            <p>Each guided scene is about one minute: six rounds of a 4-second inhale followed by a 6-second exhale on the indicated sound. After a short settling animation there is a 5-second calm-down countdown before the Start button becomes active. Once a session is running, press and hold the End button for about three seconds to finish early. A naturally completed session is added to your achievements; a session you end early is not.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Which scenes are free, and what does Lifetime Premium unlock?</summary>
+            <p>A selection of scenes is free, including all six single-sound practice sessions and the "Extreme Anger &middot; Emergency" guide. Scenes that are not included show a lock on their card and open the purchase screen instead. Lifetime Premium unlocks every locked scene with a one-time purchase; there is no subscription and no recurring billing. The free selection is part of the built-in catalogue and may change with App updates.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Why can't I hear the pronunciation audio?</summary>
+            <p>The samples are bundled inside the App and played locally through iOS audio APIs. Check the Ring/Silent switch and volume on your device, and whether audio is being routed to headphones or another Bluetooth device. Closing and reopening the App also resets the audio session. The App never records audio and never asks for microphone access, so no permission is needed.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do you collect my health data or record my voice?</summary>
+            <p>No. The App has no account system, no analytics or advertising SDKs, and no server that receives your data. It does not read Apple Health data and does not request location, contacts, photos, camera, microphone or notification permissions. Your practice counters and preferences stay on your device unless you enable iCloud Sync. See the <a href="privacy.html">Privacy Policy</a> for the full list.</p>
+          </details>
+        </div>
+
+        <div class="faq-list" id="faq-purchases" style="margin-top:16px;">
+          <details class="faq-item">
+            <summary>Is there a subscription?</summary>
+            <p>No. "Lifetime Premium" is a one-time, non-consumable in-app purchase. There is no trial that converts into a paid plan, no recurring billing and no automatic renewal. The price is shown in the App and payment is charged to your Apple ID by Apple through the App Store.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I restore my purchase on a new device?</summary>
+            <p>Open Settings in the App and tap <strong>Restore Purchases</strong> while signed in with the same Apple ID you used to buy. The App asks Apple to re-verify your transaction and unlocks the scenes again. Because there is no Huanjing account, we cannot transfer a purchase to a different Apple ID or grant access manually.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Why is a scene locked even though I already purchased?</summary>
+            <p>Open Settings and use Restore Purchases, check that you are signed in with the same Apple ID, and make sure the device has connectivity so Apple-verified transactions can be read. Closing and reopening the App triggers a fresh check. If Apple has refunded or revoked the transaction, it no longer counts as a current entitlement and the App returns to its free rules.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I request a refund?</summary>
+            <p>All payments, billing questions and refund requests are handled by Apple under its own policies. We do not receive your payment details and cannot approve or reverse a refund. Contact Apple Support or use Apple's report-a-problem service. A refund does not delete your practice history. The <a href="terms.html">Terms of Use</a> explain what happens to premium access after a refund.</p>
+          </details>
+        </div>
+
+        <div class="faq-list" id="faq-data" style="margin-top:16px;">
+          <details class="faq-item">
+            <summary>How does iCloud Sync work, and why hasn't my history synced?</summary>
+            <p>"Sync Achievements via iCloud" is on by default. With it enabled, the App stores one achievement record &mdash; total sessions, total minutes, daily counts and per-scene counts &mdash; in the private database of your own iCloud account using Apple CloudKit. Devices signed in with the same Apple ID will see the same record. Syncing runs when the App launches and after each completed session, so make sure both devices are signed in to iCloud, have iCloud available and have network access. The App combines records by keeping the higher value for each counter, so your counts never decrease when two devices merge. We cannot read your private iCloud database.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I turn off sync or delete my data?</summary>
+            <p>Turn off "Sync Achievements via iCloud" in Settings to stop syncing; the App then keeps everything local. Turning the switch off does not erase a record already stored in iCloud. To remove that record, delete the App's iCloud data in iOS Settings (Apple ID &rarr; iCloud &rarr; Manage Account Storage). Deleting the App from your device removes the local copy. Purchase records are kept by Apple and cannot be deleted by us. The App has no in-app "reset all data" button.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Is Tao Breath medical advice?</summary>
+            <p>No. It is a general relaxation and mindfulness aid, not a medical device, a diagnosis, or medical advice. Practice gently, stop immediately if you feel dizzy, short of breath or unwell, and never use the App while driving or doing anything that needs your full attention. If you have a medical condition or are under medical care, consult a qualified healthcare professional before starting a breathing exercise. In an emergency, contact your local emergency services. The <a href="terms.html">Terms of Use</a> contain the full health disclaimer.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Which languages and devices are supported?</summary>
+            <p>The interface is available in English and Simplified Chinese; you can switch it in Settings under Language. The App requires iOS 17.0 or later and is designed for iPhone in portrait orientation. Scene titles, descriptions and guidance are available in both languages; the six sound characters are always shown in their original Chinese glyphs.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Before contacting -->
+    <section class="section" id="troubleshooting">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Troubleshooting</span>
+          <h2>Before you email us</h2>
+          <p>A few quick checks solve most issues.</p>
+        </div>
+        <ul class="check-list">
+          <li><span class="check">1</span><span>Update to the latest version of Tao Breath from the App Store, then close and reopen the App.</span></li>
+          <li><span class="check">2</span><span>For sound issues, check the Ring/Silent switch, the volume, and any connected headphones or Bluetooth audio device.</span></li>
+          <li><span class="check">3</span><span>For sync issues, confirm you are signed in to iCloud with the same Apple ID on both devices and that iCloud is available.</span></li>
+          <li><span class="check">4</span><span>For a locked scene, open Settings and tap Restore Purchases, then reopen the App with connectivity available.</span></li>
+          <li><span class="check">5</span><span>If a session appears stuck, close the practice screen and start the scene again; press and hold End for about three seconds to finish early.</span></li>
+        </ul>
+
+        <div class="support-note">
+          <strong>What to include in your message:</strong> your device model, iOS version, the Tao Breath version you are using, the name of the scene, what you expected, what happened instead, and a screenshot if it helps. Because the App does not send data to us, we cannot look up your history or purchase remotely &mdash; these details let us reproduce the issue.
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section--dark">
+      <div class="container cta-band reveal">
+        <span class="eyebrow">Still need help?</span>
+        <h2>We're happy to help</h2>
+        <p>Send us a note and include the details above so we can look into it quickly.</p>
+        <div class="hero-actions" style="justify-content:center;">
+          <a class="btn btn--light" href="mailto:taobreath@huanjingtech.top">Email taobreath@huanjingtech.top</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="../index.html"><span class="logo">H</span><span>Huanjing<small>Technology</small></span></a>
+          <p class="about">Huanjing Technology builds software and APP development solutions that help people automate, decide, and get more done &mdash; simple, powerful, human-centered.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="../about.html">About Us</a>
+          <a href="../about.html#values">Our Values</a>
+        </div>
+        <div class="footer-col">
+          <h5>Products</h5>
+          <a href="../products.html#hatch-timer">Hatch Timer</a>
+          <a href="../products.html#breathe">Breathe</a>
+          <a href="../products.html#room-beauty">Room Studio</a>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <a href="mailto:taobreath@huanjingtech.top">taobreath@huanjingtech.top</a>
+          <span class="addr">Room 1213, 1st Floor, Zone E, Xianning Industrial Park, No. 8 Shuangqiao Road, Guanzhuang, Chaoyang District</span>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Beijing Huanjing Technology Co., Ltd. All rights reserved.</span>
+        <div class="legal-links">
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Use</a>
+          <a href="../privacy.html">General Privacy</a>
+          <a href="../terms.html">General Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
