@@ -1,0 +1,49 @@
+Support — Word Solitaire Study!
+================================
+
+Website: https://huanjingtech.top/wordsolitairestudy
+Email: support@huanjingtech.top
+We aim to reply within 3 business days.
+
+Before writing to us, the FAQ below may already answer your question.
+
+FAQ
+---
+
+Q: How do hearts work?
+A: Each level starts with 3 hearts. A heart is lost when you place a word card
+   into the wrong category, or when you tap the red "T" (translate) button on a
+   card a second time. If all hearts are lost, the level ends — you can replay
+   the level or use a Revive Card to continue with full hearts.
+
+Q: What are Joker Cards?
+A: Joker Cards let you move any top card onto a matching family during a level.
+   You receive 3 Jokers free when you first launch the App, and you can earn
+   more through the daily check-in. Packs are also available for purchase.
+
+Q: What are Revive Cards?
+A: Revive Cards restore your hearts to full so you can continue the current
+   level after running out. New users receive 1 free.
+
+Q: My progress disappeared after reinstalling.
+A: Turn on Settings > iCloud Sync on both installs and sign in with the same
+   Apple Account. Your save is backed up to your private iCloud database and
+   will be restored automatically on next launch.
+
+Q: How do I change the languages?
+A: Settings has three independent options: System language (App UI), Card
+   language (the words on the cards), and Translation language (definitions
+   shown when you tap "T"). Example sentences always follow the Card language.
+
+Q: I bought a pack but didn't receive the cards.
+A: First make sure the purchase completed in the App Store. Then try
+   Settings > Restore Purchases. If that does not fix it, email us with your
+   order number (from Apple's receipt) and we will help.
+
+Q: I want to request a refund.
+A: Refunds are handled by Apple: report a problem at
+   https://reportaproblem.apple.com
+
+Q: Does the App collect my data?
+A: No. The App has no ads and no analytics. See our Privacy Policy:
+   https://huanjingtech.top/wordsolitairestudy/privacy_policy.txt

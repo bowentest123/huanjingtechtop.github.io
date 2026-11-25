@@ -1,0 +1,68 @@
+Privacy Policy for Word Solitaire Study!
+=========================================
+
+Last updated: November 25, 2026
+
+1. Overview
+-----------
+Word Solitaire Study! ("the App") is a word-solitaire vocabulary learning game
+for iOS published by huanjingtech ("we", "us"). This policy explains what data
+the App handles and what it does not.
+
+2. Data We Do NOT Collect
+-------------------------
+The App does not require an account or registration. We do not collect,
+transmit, or sell any personal information to us or to any third party.
+Specifically, the App contains:
+- No advertising SDKs
+- No third-party analytics or tracking
+- No collection of names, email addresses, phone numbers, contacts,
+  location, photos, browsing history, or identifiers for tracking
+
+3. Data Stored On Your Device
+-----------------------------
+Game progress (levels, achievements, joker cards, revive cards), your saved
+wordbook, and language/audio settings are stored locally on your device using
+standard iOS storage (UserDefaults). This data never leaves your device unless
+you explicitly enable iCloud Backup (see below).
+
+4. iCloud Backup (Optional)
+---------------------------
+The App offers an optional iCloud sync feature, which you can turn on or off
+in Settings. When enabled, a single save file containing the game data listed
+in section 3 is stored in YOUR private iCloud database via CloudKit.
+- This data is stored in your own iCloud account and is visible only to you
+  and to this App on your devices.
+- We (the developer) cannot access your iCloud data. CloudKit private
+  databases are not readable by the developer.
+- Apple's privacy policy applies to iCloud storage:
+  https://www.apple.com/legal/privacy/
+
+5. Purchases
+------------
+In-app purchases (card packs) are processed by Apple through the App Store
+(StoreKit). We receive no payment details; Apple's privacy policy covers
+transaction data. Purchase history is associated with your Apple Account, and
+the App keeps a local record of granted purchases to support the "Restore
+Purchases" feature.
+
+6. Children's Privacy
+---------------------
+The App is rated for all ages, collects no personal data, and displays no
+third-party advertising.
+
+7. Data Retention & Deletion
+----------------------------
+You can delete all local data at any time by uninstalling the App. If iCloud
+backup was enabled, you can remove the cloud save via the App's Settings
+(disabling iCloud Sync) or by managing App data in your iOS iCloud settings.
+
+8. Changes to This Policy
+-------------------------
+If we change this policy, we will update the date at the top of this document
+and provide notice in the App when required by law.
+
+9. Contact
+----------
+Questions about this policy: support@huanjingtech.top
+Website: https://huanjingtech.top/wordsolitairestudy
